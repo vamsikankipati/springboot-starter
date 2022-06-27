@@ -8,6 +8,6 @@ public class RootController {
 
     @GetMapping("/")
     public String getStatus() {
-        return "Starter app is up and running!";
+        return "Starter app is UP and running!";
     }
 }
